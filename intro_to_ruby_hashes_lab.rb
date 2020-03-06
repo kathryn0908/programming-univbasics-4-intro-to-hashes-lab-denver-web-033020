@@ -24,7 +24,7 @@ end
 
 def read_from_hash(hash, key)
   value=0 
-  hash[key]= `#{value}`
+  hash[key]= 
   
 end
 

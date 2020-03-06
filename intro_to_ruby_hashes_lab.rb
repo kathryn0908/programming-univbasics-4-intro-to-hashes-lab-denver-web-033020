@@ -27,6 +27,6 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-if hash[]
+if key=nil
   hash{key => 1}
 end

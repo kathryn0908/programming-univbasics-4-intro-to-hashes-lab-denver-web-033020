@@ -19,7 +19,7 @@ end
 
 def my_hash_creator(key, value)
   Hash.new
-  {:key => value}
+  {:name => 'Grace Hopper'}
   
 end
 

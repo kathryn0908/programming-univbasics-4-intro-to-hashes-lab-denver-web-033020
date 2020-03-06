@@ -27,6 +27,5 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
- Hash.new
- {key => 1}
+ hash[1]
 end
